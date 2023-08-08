@@ -1,19 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEngine;
-using UnityEngine.XR.ARFoundation;
 
 // Track user position and rotation using AR Foundation and check hiding the application
 public class ARTracking : MonoBehaviour
 {
-    public ARSessionOrigin sessionOrigin;
+    public XROrigin sessionOrigin;
     public KeyCode ResetKeyCode;
 
     public event System.Action OnTrackingLost;
 
     public Vector3 GetPlayerPosition()
     {
-        return sessionOrigin.camera.transform.position;
+        return sessionOrigin.Camera.transform.position;
     }
 
     private void Update()

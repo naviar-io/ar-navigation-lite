@@ -18,5 +18,8 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: ea29a9a9a65b740aa88c5170db8c1075,
       type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a08035e1d4ef247fe9d117e22790bbd5,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c4793d07cfa8c46ce8e15fffcbd6cf60,
       type: 2}
+  m_UseUCBPForAssetBundles: 0

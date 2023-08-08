@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
-#if UNITY_IOS
 using UnityEditor.iOS.Xcode;
 
 public class PostProcessSettings
@@ -52,4 +51,3 @@ public class PostProcessSettings
         project.WriteToFile(projectPath);
     }
 }
-#endif

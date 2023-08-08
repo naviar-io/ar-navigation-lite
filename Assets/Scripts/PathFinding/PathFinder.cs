@@ -92,7 +92,6 @@ public class PathFinder : MonoBehaviour
                 corners.RemoveAt(i);
                 corners.RemoveAt(i - 1);
                 corners.Insert(i - 1, avgPoint);
-                i++;
             }
         }
     }

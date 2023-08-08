@@ -34,6 +34,7 @@ namespace naviar.ARNavigation.UI
             view.SetAutofocusToggleValue(cameraManager.autoFocusRequested);
             view.SetOccluderToggleValue(Application.isEditor);
             OccluderModel.SetActive(Application.isEditor);
+            view.SetGPSToggleValue(VPS.SendGPS);
             view.SetWriteLogsInFileToggleValue(VPSLogger.WriteLogsInFile);
         }
 

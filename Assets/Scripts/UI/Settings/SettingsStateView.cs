@@ -39,6 +39,11 @@ namespace naviar.ARNavigation.UI
             OccluderToggle.isOn = value;
         }
 
+        public void SetGPSToggleValue(bool value)
+        {
+            GPSToggle.isOn = value;
+        }
+
         public void SetWriteLogsInFileToggleValue(bool value)
         {
             WriteLogsInFileToggle.isOn = value;
